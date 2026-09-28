@@ -1,7 +1,7 @@
 /* KAM 360 — service worker.
    Red primero para la página (siempre la versión más reciente si hay señal),
    caché primero para archivos con huella (JS/CSS/fuentes/imágenes). */
-const CACHE = "kam360-v2";
+const CACHE = "kam360-v3";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "./index.html", "./manifest.webmanifest", "./marca/logo-wakanda-200.png"])));
