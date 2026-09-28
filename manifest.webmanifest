@@ -1,0 +1,13 @@
+{
+  "name": "KAM 360 · Wakanda Travel",
+  "short_name": "KAM 360",
+  "description": "Gestión de los Key Account Managers de Wakanda Travel.",
+  "lang": "es-CO",
+  "start_url": "./#/hoy",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f7fb",
+  "theme_color": "#3B6CA7",
+  "icons": [{ "src": "marca/logo-wakanda-200.png", "sizes": "200x200", "type": "image/png", "purpose": "any" }]
+}
